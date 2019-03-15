@@ -1,4 +1,4 @@
-#The OpenTable Sample
+# The OpenTable Sample
 
 This project was built with React JS and Redux to demostrate the use of Redux. It consumes the OpenTable API available at https://opentable.herokuapp.com.
 
