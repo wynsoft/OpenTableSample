@@ -1,0 +1,75 @@
+.display-area {
+  width: 90%;
+  margin: 40px auto;
+}
+.inputs {
+  margin: 20px;
+}
+.flexmode {
+  display: flex;
+  border: 1px solid #ccc;
+  margin: 10px;
+  border-radius: 10px;
+}
+.image {
+  flex: 1;
+}
+.image img {
+  height: 9vmax;
+  width: 9vmax;
+  border-radius: 8px 0px 0px 8px;
+  float: left;
+}
+.content {
+  flex: 7;
+  text-align: left;
+  padding: 5px;
+}
+.content h3 {
+  margin: 0;
+  font-size: calc(10px + 2vmin);
+  color: #ffcc00;
+}
+.content h5 {
+  margin: 0px;
+  font-weight: normal;
+  font-size: calc(4px + 2vmin);
+}
+.content p {
+  padding: 0px;
+  margin: 4px 0px 0px 0px;
+}
+.content p::before {
+  content: url(../phone-icon.png);
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.content p a {
+  color: #ff9900;
+  font-size: calc(8px + 1vmin);
+  text-decoration: none;
+}
+.content .rating {
+  padding-top: 5px;
+  padding-right: 5px;
+  float: right;
+  color: #ffcc00;
+}
+
+.input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: calc(10px + 2vmin);
+}
+.button {
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
+  border-radius: 5px;
+  font-size: calc(10px + 2vmin);
+}
+.hidden {
+  display: none;
+}
