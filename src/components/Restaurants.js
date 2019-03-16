@@ -20,8 +20,12 @@ class Restaurants extends Component {
 
   handleGetClick() {
     const city = document.getElementById("cityName").value;
-    this.props.fetchRestaurants(city);
-    this.refineVisible = true;
+    if (city) {
+      this.props.fetchRestaurants(city);
+      this.refineVisible = true;
+    } else {
+      alert("Please enter a city.");
+    }
   }
 
   handleRefine(event) {
