@@ -71,7 +71,7 @@ class Restaurants extends Component {
             placeholder="Enter City"
           />
           <button className="button" onClick={this.handleGetClick.bind(this)}>
-            Get
+            &#9654;
           </button>
           <input
             type="text"
