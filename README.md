@@ -8,4 +8,4 @@ Type in a city name and click the `Get` button. Once the results are displayed a
 
 ### Demo
 
-A live demo is available at https://wynsoft.ca/opentable.
+A live demo is available at https://wynsoftsystems.com/opentable.
