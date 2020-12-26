@@ -2,7 +2,7 @@
   "name": "reduxtest",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wynsoft.ca/opentable",
+  "homepage": "https://wynsoftsystems.com/opentable",
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
